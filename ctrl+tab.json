@@ -1,0 +1,37 @@
+{
+    "description": "Make CTRL+TAB active CMD+TAB",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "tab",
+                    "modifiers": ["control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "tab",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
