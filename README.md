@@ -1,2 +1,4 @@
 - brew install karabiner-elements
+  - allow all permissions
 - brew install scroll-reverser
+  - allow all permissions
