@@ -1,0 +1,2 @@
+- brew install karabiner-elements
+- brew install scroll-reverser
