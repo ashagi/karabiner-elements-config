@@ -20,5 +20,10 @@ Complex Modifications:
 - Add your own rule
 - add ctrl tab and alt ~ rules
 
+- Keyboard settings
+  - Keyboard Shortcuts
+  - Function Keys -> Use F1, F2 as standard function keys -> Enable
+  - Spotlight -> Show Spotlight search -> ^Space (command space if you look on keyboard)
+
 - brew install scroll-reverser
   - allow all permissions
